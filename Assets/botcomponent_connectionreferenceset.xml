@@ -1,0 +1,11 @@
+<botcomponent_connectionreferenceset>
+  <botcomponent_connectionreference botcomponentid.schemaname="cr69a_agentSmartEventScheduler.action.Office365Outlook-CreateeventV4" connectionreferenceid.connectionreferencelogicalname="cr69a_agentSmartEventScheduler.shared_office365.f53107b8e9ae4e90b9d0d2af3c60dee2">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+  <botcomponent_connectionreference botcomponentid.schemaname="cr69a_agentSmartEventScheduler.action.Office365Outlook-GetcalendarsV2" connectionreferenceid.connectionreferencelogicalname="cr69a_agentSmartEventScheduler.shared_office365.f53107b8e9ae4e90b9d0d2af3c60dee2">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+  <botcomponent_connectionreference botcomponentid.schemaname="cr69a_agentSmartEventScheduler.action.Office365Outlook-GetcalendarviewofeventsV3" connectionreferenceid.connectionreferencelogicalname="cr69a_agentSmartEventScheduler.shared_office365.f53107b8e9ae4e90b9d0d2af3c60dee2">
+    <iscustomizable>1</iscustomizable>
+  </botcomponent_connectionreference>
+</botcomponent_connectionreferenceset>

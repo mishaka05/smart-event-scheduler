@@ -1,0 +1,19 @@
+kind: TaskDialog
+response:
+  activity:
+  mode: Generated
+
+modelDisplayName: Get calendars (V2)
+modelDescription: This operation lists available calendars.
+outputs:
+  - propertyName: value
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: cr69a_agentSmartEventScheduler.shared_office365.f53107b8e9ae4e90b9d0d2af3c60dee2
+  connectionProperties:
+    mode: Invoker
+
+  operationId: CalendarGetTables_V2
+
+outputMode: All

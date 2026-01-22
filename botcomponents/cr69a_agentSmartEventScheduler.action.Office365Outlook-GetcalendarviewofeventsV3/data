@@ -1,0 +1,15 @@
+kind: TaskDialog
+modelDisplayName: Get calendar view of events (V3)
+modelDescription: This operation gets all events (including instances of recurrences) in a calendar using Graph API. Recurrence property is null in this case.
+outputs:
+  - propertyName: value
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: cr69a_agentSmartEventScheduler.shared_office365.f53107b8e9ae4e90b9d0d2af3c60dee2
+  connectionProperties:
+    mode: Invoker
+
+  operationId: GetEventsCalendarViewV3
+
+outputMode: All

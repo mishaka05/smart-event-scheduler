@@ -1,0 +1,10 @@
+<botcomponent schemaname="cr69a_agentSmartEventScheduler.action.Office365Outlook-GetcalendarsV2">
+  <componenttype>9</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Office 365 Outlook - Get calendars (V2)</name>
+  <parentbotid>
+    <schemaname>cr69a_agentSmartEventScheduler</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

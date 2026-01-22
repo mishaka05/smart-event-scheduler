@@ -1,0 +1,81 @@
+kind: TaskDialog
+response:
+  activity:
+  mode: Generated
+
+modelDisplayName: Create event (V4)
+modelDescription: This operation creates a new event in a calendar.
+outputs:
+  - propertyName: body
+
+  - propertyName: categories
+
+  - propertyName: createdDateTime
+
+  - propertyName: end
+
+  - propertyName: endWithTimeZone
+
+  - propertyName: iCalUId
+
+  - propertyName: id
+
+  - propertyName: importance
+
+  - propertyName: isAllDay
+
+  - propertyName: isHtml
+
+  - propertyName: isReminderOn
+
+  - propertyName: lastModifiedDateTime
+
+  - propertyName: location
+
+  - propertyName: numberOfOccurences
+
+  - propertyName: optionalAttendees
+
+  - propertyName: organizer
+
+  - propertyName: recurrence
+
+  - propertyName: recurrenceEnd
+
+  - propertyName: reminderMinutesBeforeStart
+
+  - propertyName: requiredAttendees
+
+  - propertyName: resourceAttendees
+
+  - propertyName: responseRequested
+
+  - propertyName: responseTime
+
+  - propertyName: responseType
+
+  - propertyName: sensitivity
+
+  - propertyName: seriesMasterId
+
+  - propertyName: showAs
+
+  - propertyName: start
+
+  - propertyName: startWithTimeZone
+
+  - propertyName: subject
+
+  - propertyName: timeZone
+
+  - propertyName: webLink
+
+action:
+  kind: InvokeConnectorTaskAction
+  connectionReference: cr69a_agentSmartEventScheduler.shared_office365.f53107b8e9ae4e90b9d0d2af3c60dee2
+  connectionProperties:
+    mode: Invoker
+
+  operationId: V4CalendarPostItem
+
+outputMode: All

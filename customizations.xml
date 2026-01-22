@@ -1,0 +1,26 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.25124.183" OrganizationSchemaType="Standard" CRMServerServiceabilityVersion="9.2.25124.00183">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <CustomControls />
+  <EntityDataProviders />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="cr69a_agentSmartEventScheduler.shared_office365.f53107b8e9ae4e90b9d0d2af3c60dee2">
+      <connectionreferencedisplayname>cr69a_agentSmartEventScheduler.shared_office365.f53107b8e9ae4e90b9d0d2af3c60dee2</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>0</iscustomizable>
+      <promptingbehavior>0</promptingbehavior>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
+  <Languages>
+    <Language>1033</Language>
+  </Languages>
+</ImportExportXml>

@@ -1,0 +1,11 @@
+<botcomponent schemaname="cr69a_agentSmartEventScheduler.gpt.default">
+  <componenttype>15</componenttype>
+  <description>AI-powered scheduling assistant that extracts events from photos, PDFs, and links</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Smart Event Scheduler</name>
+  <parentbotid>
+    <schemaname>cr69a_agentSmartEventScheduler</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>
